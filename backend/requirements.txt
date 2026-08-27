@@ -3,3 +3,5 @@ djangorestframework
 django-cors-headers
 google-genai
 python-dotenv
+gunicorn
+whitenoise
