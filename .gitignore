@@ -53,6 +53,10 @@ desktop.ini
 *.swp
 *.swo
 
+# Word Documents
+*.docx
+*.doc
+
 # Gemini / AI IDE
 .gemini/
 .agents/
