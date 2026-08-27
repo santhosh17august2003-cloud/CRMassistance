@@ -10,10 +10,12 @@ A full-stack **React + Django + SQLite** application with an AI Agent layer that
 
 | Layer | Technology |
 |---|---|
-| **Frontend** | React (Vite), Vanilla CSS |
+| **Frontend** | React 18 (Vite), Vanilla CSS (Glassmorphic UI) |
 | **Backend API** | Django 4.x + Django REST Framework |
 | **Database** | SQLite (`db.sqlite3`) |
-| **AI LLM** | OpenAI `gpt-4o-mini` (with function calling) |
+| **AI LLM** | Google Gemini API (`gemini-2.5-flash`) via `google-genai` SDK |
+| **Auth** | DRF Token Authentication (Register / Login) |
+| **Deployment** | Vercel (Frontend) + Render (Backend) |
 | **Fallback** | Deterministic rule-based intent parser |
 
 ---
